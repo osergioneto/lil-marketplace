@@ -17,4 +17,6 @@ routes.post("/ads", controllers.AdsController.store);
 routes.put("/ads/:id", controllers.AdsController.update);
 routes.delete("/ads/:id", controllers.AdsController.destroy);
 
+routes.post("/purchases", controllers.PurchaseController.store);
+
 module.exports = routes;
